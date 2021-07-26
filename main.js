@@ -1,10 +1,21 @@
 /* 
 👉 Write your kata here!
 
-Weather Forecaster
-Given a temperature, your weather forecaster should tell you whether it is cold, cool, warm, hot or scorchio.
+WEATHER FORECASTER
+
+Given a temperature, your weather forecaster should tell you whether it is cold, cool, warm, hot or scorchio outside.
+
 The temperature will be a number (can be negative, not always a whole number).
-Temperatures below 5 are cold, between 5 and 12 are cool, between 13 and 18 are warm, between 19 and 25 are hot and anything over 25 are scorchio.
+
+Forecasts for temperatures:
+
+- below 5 is cold
+- between 5 and 12 is cool
+- between 13 and 18 is warm
+- between 19 and 25 is hot
+- over 25 is scorchio
+
+The forecast should be returned as a string "The temperature outside is (forecast)"
 
 ? add a temperature scale eg Celcius of Farenheit
 */
